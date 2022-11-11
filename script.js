@@ -1,10 +1,10 @@
 var images = [
-    '/images/Amsterdam.jpg',
-    '/images/China.jpg',
-    '/images/Colombia.jpg',
-    '/images/Japan.jpg',
-    '/images/Oman.jpg',
-    '/images/Thailand.jpg'    
+    './images/Amsterdam.jpg',
+    './images/China.jpg',
+    './images/Colombia.jpg',
+    './images/Japan.jpg',
+    './images/Oman.jpg',
+    './images/Thailand.jpg'    
 ]
 
 var imgCaption = [
@@ -18,13 +18,9 @@ var imgCaption = [
 
 var index = 0;
 
-
 var imageElem = document.getElementById('image');
 imageElem.setAttribute("src", images[index]);
 var caption = document.getElementById('caption-text');
-
-
-
 
 function hoverImage(){
     var getArrowBtn = document.getElementsByClassName('btn');
