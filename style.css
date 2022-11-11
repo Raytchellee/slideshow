@@ -15,8 +15,11 @@ body{
     width: 100%;
 }
 
-#wrapper{
+#img-wrapper{
     box-shadow: 2px 2px 2px green;
+}
+
+#wrapper{
     display: flex;
     flex-direction: column;
     gap: 0;
