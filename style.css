@@ -106,3 +106,53 @@ p{
 .nextbtn::before{
     content: '>';
 }
+
+@media screen and (max-width: 615px) {
+    #image{
+        height: 300px;
+        width: 400px;
+    }
+    
+    
+    #img-caption{  
+        height: 50px;
+        width: 400px;
+    }
+    
+    #caption-text{
+        font-size: 36px;
+    }
+
+    .btn_wrapper{
+        width: 380px;
+        font-size: 38px;
+        font-weight: 900;
+        top: 45%;
+    }
+    
+}
+
+@media screen and (max-width: 415px) {
+    #image{
+        height: 170px;
+        width: 250px;
+    }
+    
+    
+    #img-caption{  
+        height: 30px;
+        width: 250px;
+    }
+    
+    #caption-text{
+        font-size: 24px;
+    }
+
+    .btn_wrapper{
+        width: 230px;
+        font-size: 28px;
+        font-weight: 900;
+        top: 45%;
+    }
+    
+}
