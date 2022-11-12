@@ -21,6 +21,8 @@ var index = 0;
 var imageElem = document.getElementById('image');
 imageElem.setAttribute("src", images[index]);
 var caption = document.getElementById('caption-text');
+var pageNumber = document.getElementById('img-number');
+pageNumber.innerHTML = `${index+1}/6`
 
 function hoverImage(){
     var getArrowBtn = document.getElementsByClassName('btn');
@@ -43,6 +45,7 @@ function prev(){
     }
     imageElem.setAttribute('src', images[index]);
     caption.innerHTML = imgCaption[index];
+    pageNumber.innerHTML = `${index+1}/6`
 }
 
 function next(){
@@ -53,6 +56,7 @@ function next(){
     }
     imageElem.setAttribute('src', images[index]);
     caption.innerHTML = imgCaption[index];
+    pageNumber.innerHTML = `${index+1}/6`
 }
 
 hoverImage();

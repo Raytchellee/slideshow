@@ -23,6 +23,18 @@ body{
     display: flex;
     flex-direction: column;
     gap: 0;
+    position: relative;
+}
+
+#img-number{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    z-index: 20;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Tangerine', serif;
 }
 
 #image{
